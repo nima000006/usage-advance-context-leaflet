@@ -6,7 +6,7 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://usage-advance-context-leaflet.vercel.app";
 
 const CitiesContext = createContext();
 
