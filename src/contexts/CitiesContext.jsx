@@ -130,7 +130,7 @@ function CitiesProvider({ children }) {
     dispatch({ type: "loading" });
 
     try {
-      await fetch(`${BASE_URL}/cities/${id}`, {
+      await fetch(`${BASE_URL}/api/cities/${id}`, {
         method: "DELETE",
       });
 
