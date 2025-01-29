@@ -3,7 +3,7 @@ const { parse } = require("url");
 const jsonServer = require("json-server");
 
 const server = jsonServer.create();
-const router = jsonServer.router("../cities.json"); //This is the line in question.  It's assuming that db.json is in the same location as api/index.js
+const router = jsonServer.router("../db.json"); //This is the line in question.  It's assuming that db.json is in the same location as api/index.js
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
