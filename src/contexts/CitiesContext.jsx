@@ -7,9 +7,10 @@ import {
 } from "react";
 
 const BASE_URL =
-  process.env.NODE_ENV === "development"
+  import.meta.env.MODE === "development"
     ? "http://localhost:9000"
-    : "https://usage-advance-context-leaflet.vercel.app";
+    : "https://usage-advance-context-leaflet.vercel.app/api";
+
 
 
 const CitiesContext = createContext();
