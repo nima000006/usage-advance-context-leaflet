@@ -1,3 +1,16 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "cityName": "Valdelcubo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-02-02T08:43:20.525Z",
+      "notes": "",
+      "position": {
+        "lat": "41.22824901518532",
+        "lng": "-2.6806640625"
+      },
+      "id": 1
+    }
+  ]
 }

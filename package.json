@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
 "scripts": {
-  "dev": "npx concurrently \"vite\" \"npx json-server --watch db.json --port 5000\"",
+  "dev": "npx concurrently \"vite\" \"npx json-server --watch db.json --port 9000\"",
   "build": "vite build",
   "preview": "vite preview",
-  "server": "json-server --watch db.json --port 5000",
+  "server": "json-server --watch db.json --port 9000",
   "start": "node api/server.js"
 },
 
