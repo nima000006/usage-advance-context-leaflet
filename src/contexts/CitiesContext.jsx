@@ -6,7 +6,11 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "https://usage-advance-context-leaflet.vercel.app";
+const BASE_URL =
+  process.env.NODE_ENV === "development"
+    ? "http://localhost:9000"
+    : "https://usage-advance-context-leaflet.vercel.app";
+
 
 const CitiesContext = createContext();
 
